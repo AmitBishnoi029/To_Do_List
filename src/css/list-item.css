@@ -1,0 +1,60 @@
+/* list-item.css */
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.task-text {
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.task-text.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.edit-button,
+.delete-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #45a049;
+}
+
+.due-date {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+/* Background color based on priority */
+/* .list-item[style*="background-color:red"] {
+  background-color: red;
+}
+
+.list-item[style*="background-color:orange"] {
+  background-color: orange;
+}
+
+.list-item[style*="background-color:green"] {
+  background-color: green;
+} */
