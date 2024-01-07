@@ -15,7 +15,7 @@ This project is a Todo List web application with user authentication features. U
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-git clone [https://github.com/AmitBishnoi029/To_Do_List.git]
+git clone https://github.com/AmitBishnoi029/To_Do_List.git
 
 
 2. Install dependencies:
@@ -52,7 +52,5 @@ Feel free to contribute to this project by opening issues or submitting pull req
 
 
 
-## Contact
 
-For questions or feedback, reach out to [Govind Ji](https://github.com/jigovind556).
 
